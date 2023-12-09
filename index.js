@@ -18,7 +18,7 @@ app.get('/stadium',(req,res)=>{
         stadium:[
             {
                 id: 1,
-                name: "Grand Stade d'Agadir",
+                name: "Grand Stade d'Agadirtest",
                 formerName: ["Stade Adrar"],
                 location: {
                   address: {
