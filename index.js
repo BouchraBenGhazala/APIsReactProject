@@ -20,39 +20,37 @@ app.get('/stadium',(req,res)=>{
                 id: 1,
                 name: "Agadir Grand Stadium",
                 formerName: ["Adrar stadium"],
-                location: {
-                  address: {
-                    city: "Agadir",
-                    neighborhood: "City Center",
-                    street: " Mac Mahon"
-                  },
+                address: {
+                  city: "Agadir",
+                  neighborhood: "City Center",
+                  street: " Mac Mahon"
                 },
+                
                 owner: "Moroccan Ministry of Youth and Sports",
                 capacity: 45480,
                 events: ["Hassania d'Agadir vs Jeunesse sportive de Kabylie, 11 October 2013", "Morocco vs South Africa, 11 October 2013", "Raja Casablanca vs Auckland City FC, 11 December 2013"],
                 field: {
                   length: 105,
                   width: 84,
-                  surface: "Natural grass"
+                  surface: "Natural"
                 },
                 construction: {
                   opened: "October 2013",
-                  renovated: ["none"],
+                  renovated: ["no renovation yet"],
                 },
                 tenants: ["Hassania Agadir", "Olympique Dcheira"],
-                image: "https://maroc-diplomatique.net/wp-content/uploads/2022/05/stade-agadir.jpg",
+                image: "https://pbs.twimg.com/media/F66OcC_XcAA5l8K.jpg",
+                frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.303837734561!2d-9.542824926074617!3d30.427487600323733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9de97587637%3A0x9668ab97f677bc8e!2sAdrar%20Stadium!5e0!3m2!1sen!2sma!4v1702675061468!5m2!1sen!2sma",
                 description: "Grand Stade d'Agadir, also known as Stade Adrar, is a football stadium located in Agadir, Morocco. Inaugurated on October 11, 2013, it is owned by the Moroccan Ministry of Youth and Sports and managed by SONARGES (Société Nationale de Réalisation et de Gestion des Stades). With an estimated total cost of 860 million MAD, construction began in June 2004, with completion in August 2013. The stadium hosts home matches for the resident clubs, Hassania d'Agadir and Olympique Dcheira. The stadium has witnessed significant events, including the FIFA Club World Cup 2013 matches. It features a natural grass surface and a seating capacity of 45,480, making it a key sports venue in Agadir."
               },
             {
                 id: 2,
                 name: "Tangier Grand Stadium",
                 formerName: ["Ibn-Batouta stadium"],
-                location: {
-                    address: {
-                        city: "Tangier",
-                        neighborhood: "Ibn Battuta Airport",
-                        street: "Av. Ibn Sina"
-                    },
+                address: {
+                    city: "Tangier",
+                    neighborhood: "Ibn Battuta Airport",
+                    street: "Av. Ibn Sina"
                 },
                 owner: "City of Tangier",
                 capacity: 68000,
@@ -68,19 +66,19 @@ app.get('/stadium',(req,res)=>{
                 },
                 tenants: ["IR Tangier"],
                 image: "https://static.ostadium.com/galleries/stade-ibn-batouta-illus.jpg",
+                frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.196339691949!2d-5.860306155572486!3d35.74115199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b87a7b9e9b7e5%3A0xad9add5f6dc2c4c8!2sIbn%20Batouta%20Stadium!5e0!3m2!1sen!2sma!4v1702675887053!5m2!1sen!2sma",
                 description: "The Grand Stade de Tanger, opened on April 26, 2011, is located 3 km from Ibn Battouta Airport. It spans a total area of 82 hectares. The current seating capacity is over 62,000, with ongoing construction to increase it to 80,000 seats. The stadium is equipped with numerous modern facilities, including football changing rooms, saunas, athletics changing rooms, and offices for match officials."
                 },
             {
             id: 3,
             name: "Prince Moulay Abdellah Sports Complex",
             formerName: ["CSPMA"],
-            location: {
               address: {
                 city: "Rabat",
                 neighborhood: "southwest of the capital",
                 street: "Near the highway"
               },
-            },
+          
             owner: "City of Rabat",
             capacity:45800,
             events: ["Moghreb de Tétouan vs Auckland City FC, December 10, 2014", "Entente de Sétif vs Auckland City FC, December 13, 2014"," Raja CA vs Ittihad FC, August 21, 2021"],
@@ -94,20 +92,20 @@ app.get('/stadium',(req,res)=>{
               renovated: ["2000", "2014"],
             },
             tenants: ["AS FAR","Morocco national football team"],
-            image: "https://static.menara.ma/content/uploads/2023/01/complexe-sportif-moulay-abdellah.jpg",
+            image: "https://www.lopinion.ma/photo/art/grande/75046029-52477735.jpg?v=1693927962",
+            frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.2718821616395!2d-6.891578625885259!3d33.95985072260591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d33381e1715%3A0xa48e7a4d205b07f1!2sPrince%20Moulay%20Abdellah%20Stadium!5e0!3m2!1sen!2sma!4v1702675957266!5m2!1sen!2sma",
             description: "Prince Moulay Abdellah Sports Complex, inaugurated in 1983, is a crucial sports venue in Rabat with a capacity of 45,800. Renovated in 2000 and 2014, it has played a pivotal role in major events such as CAN 1988 and the FIFA Club World Cup 2014, leaving a lasting impact on Morocco's sports history."
             },
             {
             id: 4,
             name: "Marrakech Grand Stadium",
             formerName: ["GSM"],
-            location: {
               address: {
                 city: "Marrakech",
                 neighborhood: "entrance to the city",
                 street: "National Highway 9"
               },
-            },
+            
             owner: "The state",
             capacity: 45240,
             events: ["Wydad Athletic Club vs Paris Saint-Germain, January 5, 2011"," Kawkab de Marrakech vs Olympique Lyonnais, January 5, 2011"," Morocco vs Niger, February 9, 2011"],
@@ -122,19 +120,20 @@ app.get('/stadium',(req,res)=>{
             },
             tenants: ["Kawkab Marrakech", "Morocco national football team"],
             image: "https://ic7m.com/images/stade/s5.jpg",
+            frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.325924934804!2d-7.983289226008375!3d31.706990737900977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafed72c50b7e8d%3A0x4016a0e3c7405e4c!2sGrand%20Stadium%20of%20Marrakech!5e0!3m2!1sen!2sma!4v1702676001839!5m2!1sen!2sma",
             description: "The Grand Stade de Marrakech in Morocco, inaugurated in 2011 with a seating capacity of 45,240 (70,000 covered), faced criticism for its design separating stands from the field. However, it features extensive facilities, including a media hall and a 7,500-capacity parking lot, meeting international standards for football and athletics. With a budget of one billion MAD (around 90 million euros), it serves as a versatile venue for national and international competitions."
           },
           {
             id: 5,
             name: "Mohammed V stadium",
             formerName: ["Stadium of Honor"],
-            location: {
+  
               address: {
                 city: "Casablanca",
                 neighborhood: "Maârif",
                 street: "Al-Azrak Ahmed"
               },
-            },
+          
             owner: "The City of Casablanca",
             capacity: 45891,
             events: ["Wydad AC vs Budapest Honvéd, January 1, 1956"," Wydad AC vs Bayern Munich, January 7, 1959"," Morocco vs Egypt, July 28, 1985."],
@@ -148,20 +147,21 @@ app.get('/stadium',(req,res)=>{
               renovated: ["1981", "2000", "2007", "2015"],
             },
             tenants: ["Wydad Athletic Club", "Raja Club Athletic", "Morocco national football team"],
-            image: "https://www.casa-amenagement.ma/uploads/gallery/travaux-du-complexe-med-v/DJI_0145.JPG",
+            image: "https://www.maroc-hebdo.press.ma/files/2023/10/stade-d-honneur-22363561-large.jpg",
+            frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.8936690889927!2d-7.649942525906481!3d33.58210994241105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2e77f3d8aaf%3A0x9169b10a83e53ab!2sMohamed%20V%20Sports%20Complex!5e0!3m2!1sen!2sma!4v1702676077884!5m2!1sen!2sma",
             description: "Stade Mohammed V in Casablanca, Morocco, originally Stade Marcel Cerdan, played a key role in Morocco's 1970 World Cup qualification. Renamed Stade d'Honneur, it underwent significant renovations and is set to host the historic 2025 African Football League final, epitomizing the blend of tradition and progress in Moroccan sports."
           },
           {
             id: 6,
             name: "Sports Complex of Fes",
-            formerName: ["CSF"],
-            location: {
+            formerName: ["CSF stadium"],
+
               address: {
                 city: "Fès",
                 neighborhood: "Mohammed V",
                 street: "Sefrou Road"
               },
-            },
+            
             owner: "City of Fez",
             capacity: 45000,
             events: ["Morocco vs Zambia, January 12, 2008"," Morocco vs Algeria, May 17, 2008"," FAR de Rabat vs Club Africain, January 25, 2009"],
@@ -175,7 +175,7 @@ app.get('/stadium',(req,res)=>{
               renovated: ["2004"],
             },
             tenants: ["Maghreb of Fes", "Wydad of Fès"],
-            image: "https://maroc-diplomatique.net/wp-content/uploads/2019/09/F%C3%A8s.jpg",
+            image: "https://static.ostadium.com/galleries/complexe-sportif-de-fes-illus.jpg",
             description: "The Stadium of the Sports Complex in Fes, Morocco, with a capacity of 45,000 seats, features a distinctly Moroccan architectural style. Construction began in 1992 to host the 1997 Junior Africa Cup of Nations but faced technical challenges, leading to completion in 2003. Despite renovations in 2004 for unsuccessful bids to host the 2006 and 2010 World Cups, the stadium was officially inaugurated in November 2007, serving as the home ground for the Maghreb de Fes football team."
           },
 
