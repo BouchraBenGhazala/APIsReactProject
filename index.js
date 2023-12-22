@@ -40,6 +40,7 @@ app.get('/stadium',(req,res)=>{
                 },
                 tenants: ["Hassania Agadir", "Olympique Dcheira"],
                 image: "https://pbs.twimg.com/media/F66OcC_XcAA5l8K.jpg",
+                video:"Agadir Stadium.mp4",
                 frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.303837734561!2d-9.542824926074617!3d30.427487600323733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9de97587637%3A0x9668ab97f677bc8e!2sAdrar%20Stadium!5e0!3m2!1sen!2sma!4v1702675061468!5m2!1sen!2sma",
                 description: "Grand Stade d'Agadir, also known as Stade Adrar, is a football stadium located in Agadir, Morocco. Inaugurated on October 11, 2013, it is owned by the Moroccan Ministry of Youth and Sports and managed by SONARGES (Société Nationale de Réalisation et de Gestion des Stades). With an estimated total cost of 860 million MAD, construction began in June 2004, with completion in August 2013. The stadium hosts home matches for the resident clubs, Hassania d'Agadir and Olympique Dcheira. The stadium has witnessed significant events, including the FIFA Club World Cup 2013 matches. It features a natural grass surface and a seating capacity of 45,480, making it a key sports venue in Agadir."
               },
@@ -66,6 +67,7 @@ app.get('/stadium',(req,res)=>{
                 },
                 tenants: ["IR Tangier"],
                 image: "https://static.ostadium.com/galleries/stade-ibn-batouta-illus.jpg",
+                video:"Grand stadium of tangier ibn batouta.mp4",
                 frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.196339691949!2d-5.860306155572486!3d35.74115199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b87a7b9e9b7e5%3A0xad9add5f6dc2c4c8!2sIbn%20Batouta%20Stadium!5e0!3m2!1sen!2sma!4v1702675887053!5m2!1sen!2sma",
                 description: "The Grand Stade de Tanger, opened on April 26, 2011, is located 3 km from Ibn Battouta Airport. It spans a total area of 82 hectares. The current seating capacity is over 62,000, with ongoing construction to increase it to 80,000 seats. The stadium is equipped with numerous modern facilities, including football changing rooms, saunas, athletics changing rooms, and offices for match officials."
                 },
@@ -93,6 +95,7 @@ app.get('/stadium',(req,res)=>{
             },
             tenants: ["AS FAR","Morocco national football team"],
             image: "https://www.lopinion.ma/photo/art/grande/75046029-52477735.jpg?v=1693927962",
+            video:"cpsa.mp4",
             frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.2718821616395!2d-6.891578625885259!3d33.95985072260591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d33381e1715%3A0xa48e7a4d205b07f1!2sPrince%20Moulay%20Abdellah%20Stadium!5e0!3m2!1sen!2sma!4v1702675957266!5m2!1sen!2sma",
             description: "Prince Moulay Abdellah Sports Complex, inaugurated in 1983, is a crucial sports venue in Rabat with a capacity of 45,800. Renovated in 2000 and 2014, it has played a pivotal role in major events such as CAN 1988 and the FIFA Club World Cup 2014, leaving a lasting impact on Morocco's sports history."
             },
@@ -120,6 +123,7 @@ app.get('/stadium',(req,res)=>{
             },
             tenants: ["Kawkab Marrakech", "Morocco national football team"],
             image: "https://ic7m.com/images/stade/s5.jpg",
+            video:"GSM.mp4",
             frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.325924934804!2d-7.983289226008375!3d31.706990737900977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafed72c50b7e8d%3A0x4016a0e3c7405e4c!2sGrand%20Stadium%20of%20Marrakech!5e0!3m2!1sen!2sma!4v1702676001839!5m2!1sen!2sma",
             description: "The Grand Stade de Marrakech in Morocco, inaugurated in 2011 with a seating capacity of 45,240 (70,000 covered), faced criticism for its design separating stands from the field. However, it features extensive facilities, including a media hall and a 7,500-capacity parking lot, meeting international standards for football and athletics. With a budget of one billion MAD (around 90 million euros), it serves as a versatile venue for national and international competitions."
           },
@@ -148,6 +152,7 @@ app.get('/stadium',(req,res)=>{
             },
             tenants: ["Wydad Athletic Club", "Raja Club Athletic", "Morocco national football team"],
             image: "https://www.maroc-hebdo.press.ma/files/2023/10/stade-d-honneur-22363561-large.jpg",
+            video:"stadeHonor.mp4",
             frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.8936690889927!2d-7.649942525906481!3d33.58210994241105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2e77f3d8aaf%3A0x9169b10a83e53ab!2sMohamed%20V%20Sports%20Complex!5e0!3m2!1sen!2sma!4v1702676077884!5m2!1sen!2sma",
             description: "Stade Mohammed V in Casablanca, Morocco, originally Stade Marcel Cerdan, played a key role in Morocco's 1970 World Cup qualification. Renamed Stade d'Honneur, it underwent significant renovations and is set to host the historic 2025 African Football League final, epitomizing the blend of tradition and progress in Moroccan sports."
           },
@@ -176,6 +181,7 @@ app.get('/stadium',(req,res)=>{
             },
             tenants: ["Maghreb of Fes", "Wydad of Fès"],
             image: "https://static.ostadium.com/galleries/complexe-sportif-de-fes-illus.jpg",
+            video:"CSF.mp4",
             description: "The Stadium of the Sports Complex in Fes, Morocco, with a capacity of 45,000 seats, features a distinctly Moroccan architectural style. Construction began in 1992 to host the 1997 Junior Africa Cup of Nations but faced technical challenges, leading to completion in 2003. Despite renovations in 2004 for unsuccessful bids to host the 2006 and 2010 World Cups, the stadium was officially inaugurated in November 2007, serving as the home ground for the Maghreb de Fes football team."
           },
 
