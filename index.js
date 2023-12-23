@@ -1078,25 +1078,25 @@ app.get('/PopularPlaces',(req,res)=>{
   "PopularPlaces": [
     {
       id:1,
-      "city": "Marrakech",
+      "city": "Casablanca",
       "places": [
         {
-          "name": "Jardin Majorelle",
-          "description": "A vibrant garden designed by Jacques Majorelle, featuring exotic plants and blue structures.",
-          "image": "https://img.atlasobscura.com/MsbC5UTj5Ccr6d29P8sqOO1NUhhDZAuv-CZJVaGHAyA/rs:fill:580:580:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy81MGVh/MDU2OS1mZTYwLTQ1/ODctOWNiZC1lZjYx/YzkxNjY2MTk2ZTMz/MWY4NWIwMmYxYzY5/ODVfSmFyZGluLU1h/am9yZWxsZS00LkpQ/Rw.jpg",
-          "location": "Jardin Majorelle, Marrakech, Morocco"
+          "name": "Hassan II Mosque",
+          "description": "A grand mosque with intricate architecture, situated on the Atlantic Ocean.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/4d/c3/07/ii.jpg?w=1200&h=1200&s=1",
+          "location": "Hassan II Mosque, Casablanca, Morocco"
         },
         {
-          "name": "Bahia Palace",
-          "description": "A magnificent palace with stunning gardens, once home to a grand vizier.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bahia_Palace_large_court.jpg",
-          "location": "Bahia Palace, Marrakech, Morocco"
+          "name": "Old Medina",
+          "description": "A historic walled area with narrow streets, traditional markets, and historic sites.",
+          "image": "https://cdn-v2.theculturetrip.com/1200x630/wp-content/uploads/2021/05/casablanca-old-medina.webp",
+          "location": "Old Medina, Casablanca, Morocco"
         },
         {
-          "name": "Saadian Tombs",
-          "description": "Historical tombs dating back to the Saadian dynasty, rediscovered in 1917.",
-          "image": "https://womenbesttravel.com/wp-content/uploads/2020/11/Saadian-Tombs-Marrakech-Opening-Hours-Location-and-entrance-fees5-1.jpg",
-          "location": "Saadian Tombs, Marrakech, Morocco"
+          "name": "Corniche Ain Diab",
+          "description": "A popular waterfront area with cafes, restaurants, and scenic views of the sea.",
+          "image": "https://www.casa-amenagement.ma/uploads/projets/400x400/33d81607c3d763ba1fac44dabd2b91132257bbd0.jpg",
+          "location": "Corniche Ain Diab, Casablanca, Morocco"
         }
       ]
     },
@@ -1126,25 +1126,25 @@ app.get('/PopularPlaces',(req,res)=>{
     },
     {
       id:3,
-      "city": "Casablanca",
+      "city": "Marrakech",
       "places": [
         {
-          "name": "Hassan II Mosque",
-          "description": "A grand mosque with intricate architecture, situated on the Atlantic Ocean.",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/4d/c3/07/ii.jpg?w=1200&h=1200&s=1",
-          "location": "Hassan II Mosque, Casablanca, Morocco"
+          "name": "Jardin Majorelle",
+          "description": "A vibrant garden designed by Jacques Majorelle, featuring exotic plants and blue structures.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4f/7f/06/20190418-125956-largejpg.jpg?w=1200&h=-1&s=1",
+          "location": "Jardin Majorelle, Marrakech, Morocco"
         },
         {
-          "name": "Old Medina",
-          "description": "A historic walled area with narrow streets, traditional markets, and historic sites.",
-          "image": "https://cdn-v2.theculturetrip.com/1200x630/wp-content/uploads/2021/05/casablanca-old-medina.webp",
-          "location": "Old Medina, Casablanca, Morocco"
+          "name": "Bahia Palace",
+          "description": "A magnificent palace with stunning gardens, once home to a grand vizier.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bahia_Palace_large_court.jpg",
+          "location": "Bahia Palace, Marrakech, Morocco"
         },
         {
-          "name": "Corniche Ain Diab",
-          "description": "A popular waterfront area with cafes, restaurants, and scenic views of the sea.",
-          "image": "https://www.casa-amenagement.ma/uploads/projets/400x400/33d81607c3d763ba1fac44dabd2b91132257bbd0.jpg",
-          "location": "Corniche Ain Diab, Casablanca, Morocco"
+          "name": "Saadian Tombs",
+          "description": "Historical tombs dating back to the Saadian dynasty, rediscovered in 1917.",
+          "image": "https://womenbesttravel.com/wp-content/uploads/2020/11/Saadian-Tombs-Marrakech-Opening-Hours-Location-and-entrance-fees5-1.jpg",
+          "location": "Saadian Tombs, Marrakech, Morocco"
         }
       ]
     },
