@@ -55,7 +55,7 @@ app.get('/stadium',(req,res)=>{
                 },
                 owner: "City of Tangier",
                 capacity: 68000,
-                events: ["Atlético Madrid B vs IR Tanger, April 26, 2011", "Atlético Madrid vs Raja Club Athletic, April 26, 2011"," LOSC Lille Métropole vs Olympique de Marseille, July 27, 2011"],
+                events: ["Atlético Madrid B vs IR Tangier, April 26, 2011", "Atlético Madrid vs Raja Club Athletic, April 26, 2011"," LOSC Lille Métropole vs Olympique de Marseille, July 27, 2011"],
                 field: {
                     length:105 ,
                     width: 68,
@@ -69,7 +69,7 @@ app.get('/stadium',(req,res)=>{
                 image: "https://static.ostadium.com/galleries/stade-ibn-batouta-illus.jpg",
                 video:"Grand stadium of tangier ibn batouta.mp4",
                 frameSource:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.196339691949!2d-5.860306155572486!3d35.74115199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b87a7b9e9b7e5%3A0xad9add5f6dc2c4c8!2sIbn%20Batouta%20Stadium!5e0!3m2!1sen!2sma!4v1702675887053!5m2!1sen!2sma",
-                description: "The Grand Stade de Tanger, opened on April 26, 2011, is located 3 km from Ibn Battouta Airport. It spans a total area of 82 hectares. The current seating capacity is over 62,000, with ongoing construction to increase it to 80,000 seats. The stadium is equipped with numerous modern facilities, including football changing rooms, saunas, athletics changing rooms, and offices for match officials."
+                description: "The Grand Stade de Tangier, opened on April 26, 2011, is located 3 km from Ibn Battouta Airport. It spans a total area of 82 hectares. The current seating capacity is over 62,000, with ongoing construction to increase it to 80,000 seats. The stadium is equipped with numerous modern facilities, including football changing rooms, saunas, athletics changing rooms, and offices for match officials."
                 },
             {
             id: 3,
@@ -214,16 +214,16 @@ app.get('/historyCities',(req,res)=>{
           },
           {
             id: 2,
-            cityName: "Tanger",
-            overview: "Tanger, located at the northern tip of Morocco, is a historic port city with a rich cultural heritage. It has been a crossroads of various civilizations and is known for its unique blend of European and Moroccan influences.",
-            climate: "Tanger experiences a Mediterranean climate with warm, dry summers and mild, wet winters. The city enjoys a strategic position overlooking the Strait of Gibraltar.",
+            cityName: "Tangier",
+            overview: "Tangier, located at the northern tip of Morocco, is a historic port city with a rich cultural heritage. It has been a crossroads of various civilizations and is known for its unique blend of European and Moroccan influences.",
+            climate: "Tangier experiences a Mediterranean climate with warm, dry summers and mild, wet winters. The city enjoys a strategic position overlooking the Strait of Gibraltar.",
             population: 950000,
             languages: ["Arabic", "French"],
             industries: ["Port and Maritime Trade", "Tourism", "Textiles"],
             universities: ["Abdelmalek Essaâdi University"],
             keyEvents: [
-              { year: 1923, event: "Treaty of Tanger grants international status to the city, leading to its multicultural character." },
-              { year: 1956, event: "Morocco gains independence, and Tanger becomes part of the newly formed Kingdom of Morocco." },
+              { year: 1923, event: "Treaty of Tangier grants international status to the city, leading to its multicultural character." },
+              { year: 1956, event: "Morocco gains independence, and Tangier becomes part of the newly formed Kingdom of Morocco." },
             ],
             notableLandmarks: [
               "The Kasbah Museum",
@@ -340,7 +340,7 @@ app.get('/TraditionsCultures',(req,res)=>{
       },
       {
         id:2,
-        "name": "Tanger",
+        "name": "Tangier",
         "traditions": {
           "festivals": ["Tangier International Film Festival", "Tanjazz Festival"],
           "local_cuisine": ["Tajine", "Mint Tea"],
@@ -568,12 +568,12 @@ app.get('/CityHotels',(req,res)=>{
       },
       {
         cityId: 2,
-        cityName: "Tanger",
+        cityName: "Tangier",
         hotels: [
           { 
             name: "El Minzah Hotel",
             stars: 5,
-            address: "85 Rue de la Liberté, Tanger 90000, Morocco",
+            address: "85 Rue de la Liberté, Tangier 90000, Morocco",
             amenities: ["Port View", "Fine Dining", "Business Center"],
             averagePriceFor2Persn: "1234MAD",
             photos: ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/223929205.jpg?k=d078e72eea7a90a7bba14dac4da7ba6f113e022ac65aa58cb1a6e27c35994cda&o=&hp=1",
@@ -593,9 +593,9 @@ app.get('/CityHotels',(req,res)=>{
                     ]
           },
           { 
-            name: "Mövenpick Hotel & Casino Malabata Tanger",
+            name: "Mövenpick Hotel & Casino Malabata Tangier",
             stars: 5,
-            address: "Baie De Tanger, 90000 Tangier, Morocco ",
+            address: "Baie De Tangier, 90000 Tangier, Morocco ",
             amenities: ["Sea View Rooms", "Casino and Entertainment", "Wellness Spa"],
             averagePriceFor2Persn: "1516MAD",
             photos: ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/330281860.jpg?k=06170ff1dc45426ffecaf95b9a15e432bfebd9afa7c448c18e2e1ced90fc7223&o=&hp=1",
@@ -615,7 +615,7 @@ app.get('/CityHotels',(req,res)=>{
                     ]
           },
           { 
-            name: "Hilton Garden Inn Tanger City Centre",
+            name: "Hilton Garden Inn Tangier City Centre",
             stars: 4,
             address: "Malabata Route with Voie n 18 , 90000 Tangier, Morocco ",
             amenities: ["Beachfront", "Conference Rooms", "Restaurant"],
@@ -639,7 +639,7 @@ app.get('/CityHotels',(req,res)=>{
           { 
             name: "Hotel Continental",
             stars: 3,
-            address: "36 Rue Dar El Baroud, Tanger 90000, Morocco",
+            address: "36 Rue Dar El Baroud, Tangier 90000, Morocco",
             amenities: ["Free Wi-Fi", "Buffet Breakfast", "Pet-Friendly"],
             averagePriceFor2Persn: "665MAD",
             photos: ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a9/29/f0/dining-room.jpg?w=700&h=-1&s=1",
@@ -648,9 +648,9 @@ app.get('/CityHotels',(req,res)=>{
                     ]
           },
           { 
-            name: "ONOMO Hotel Tanger Med",
+            name: "ONOMO Hotel Tangier Med",
             stars: 3,
-            address: " Tanger Med Port Center - secteur 9, commune Angra , 90000 Tangier, Morocco ",
+            address: " Tangier Med Port Center - secteur 9, commune Angra , 90000 Tangier, Morocco ",
             amenities: ["Free Wi-Fi", "Free Parking", "Airport shuttle (free)"],
             averagePriceFor2Persn: "677MAD",
             photos: ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/228455013.jpg?k=3e4d38bbcf33fe731264f089a47e6db6713bad66f32c8a0aa419a1e77113ee1b&o=&hp=1",
@@ -1078,6 +1078,102 @@ app.get('/PopularPlaces',(req,res)=>{
   "PopularPlaces": [
     {
       id:1,
+      "city": "Casablanca",
+      "places": [
+        {
+          "name": "Hassan II Mosque",
+          "description": "A grand mosque with intricate architecture, situated on the Atlantic Ocean.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/4d/c3/07/ii.jpg?w=1200&h=1200&s=1",
+          "location": "Hassan II Mosque, Casablanca, Morocco"
+        },
+        {
+          "name": "Old Medina",
+          "description": "A historic walled area with narrow streets, traditional markets, and historic sites.",
+          "image": "https://cdn-v2.theculturetrip.com/1200x630/wp-content/uploads/2021/05/casablanca-old-medina.webp",
+          "location": "Old Medina, Casablanca, Morocco"
+        },
+        {
+          "name": "Corniche Ain Diab",
+          "description": "A popular waterfront area with cafes, restaurants, and scenic views of the sea.",
+          "image": "https://www.casa-amenagement.ma/uploads/projets/400x400/33d81607c3d763ba1fac44dabd2b91132257bbd0.jpg",
+          "location": "Corniche Ain Diab, Casablanca, Morocco"
+        }
+      ]
+    },
+    {
+      id:2,
+      city: "Tangier",
+      places: [
+        {
+          "name": "Kasbah Museum",
+          "description": "A historic fortress turned museum, showcasing artifacts from Tangier's past.",
+          "image": "https://www.wowabouts.com/z-media/2018/10/Kasbah%20Museum%20Tangier%201.jpg",
+          "location": "Kasbah Museum, Tangier, Morocco"
+        },
+        {
+          "name": "Caves of Hercules",
+          "description": "A natural cave with a legendary connection to Hercules, offering scenic views.",
+          "image": "https://img.atlasobscura.com/3ecxzsDuOZkCbO0qjx1Ym3Si_JIgaVTkZxs2s_YYVm0/rs:fill:580:580:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wMzgw/OGI0YS01YmU1LTRm/MTctYmQ5NS1kZmJl/NTQ0ZWE1ZGI5NjNm/Y2YxOThjMDE0YWE5/NzBfQ3VldmFzX2Rl/X0hlzIFyY3VsZXMs/X0NhYm9fRXNwYXJ0/ZWwsX01hcnJ1ZWNv/cyxfMjAxNS0xMi0x/MSxfRERfMjItMjRf/SERSLmpwZWc.jpg",
+          "location": "Caves of Hercules, Tangier, Morocco"
+        },
+        {
+          "name": "Parc Perdicaris",
+          "description": "A serene park with diverse plant life, named after a historical figure.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/b1/d6/c6/parc-perdicaris.jpg?w=1200&h=-1&s=1",
+          "location": "Parc Perdicaris, Tangier, Morocco"
+        }
+      ]
+    },
+    {
+      id:3,
+      "city": "Marrakech",
+      "places": [
+        {
+          "name": "Jardin Majorelle",
+          "description": "A vibrant garden designed by Jacques Majorelle, featuring exotic plants and blue structures.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4f/7f/06/20190418-125956-largejpg.jpg?w=1200&h=-1&s=1",
+          "location": "Jardin Majorelle, Marrakech, Morocco"
+        },
+        {
+          "name": "Bahia Palace",
+          "description": "A magnificent palace with stunning gardens, once home to a grand vizier.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bahia_Palace_large_court.jpg",
+          "location": "Bahia Palace, Marrakech, Morocco"
+        },
+        {
+          "name": "Saadian Tombs",
+          "description": "Historical tombs dating back to the Saadian dynasty, rediscovered in 1917.",
+          "image": "https://womenbesttravel.com/wp-content/uploads/2020/11/Saadian-Tombs-Marrakech-Opening-Hours-Location-and-entrance-fees5-1.jpg",
+          "location": "Saadian Tombs, Marrakech, Morocco"
+        }
+      ]
+    },
+    {
+      id:4,
+      "city": "Rabat",
+      "places": [
+        {
+          "name": "Royal Palace of Rabat",
+          "description": "The official residence of the King of Morocco, known for its grand architecture.",
+          "image": "https://www.story-rabat.com/wp-content/uploads/2023/09/2_2_11zon-1.webp",
+          "location": "Royal Palace of Rabat, Rabat, Morocco"
+        },
+        {
+          "name": "Chellah Necropolis",
+          "description": "An ancient Roman and medieval Muslim necropolis with picturesque ruins.",
+          "image": "https://www.visitrabat.com/wp-content/uploads/2019/04/chellah_111.jpg",
+          "location": "Chellah Necropolis, Rabat, Morocco"
+        },
+        {
+          "name": "Rabat Archaeological Museum",
+          "description": "A museum housing a rich collection of artifacts from Morocco's archaeological sites.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/85/ae/39/the-main-gallery.jpg?w=1200&h=-1&s=1",
+          "location": "Rabat Archaeological Museum, Rabat, Morocco"
+        }
+      ]
+    },
+    {
+      id:5,
       city: "Agadir",
       places: [
         {
@@ -1095,107 +1191,13 @@ app.get('/PopularPlaces',(req,res)=>{
         {
           "name": "Valley of the Birds",
           "description": "A lush park where visitors can enjoy the company of various bird species.",
-          "image": "valley_of_the_birds.jpg",
+          "image": "https://lh3.googleusercontent.com/p/AF1QipNInGpYV1ByJ77oqGzMHR5WpU2I6m8QyP-QzCqK=s1360-w1360-h1020",
           "location": "Valley of the Birds, Agadir, Morocco"
         }
       ]
     },
-    {
-      id:2,
-      city: "Tanger",
-      places: [
-        {
-          "name": "Kasbah Museum",
-          "description": "A historic fortress turned museum, showcasing artifacts from Tanger's past.",
-          "image": "kasbah_museum.jpg",
-          "location": "Kasbah Museum, Tanger, Morocco"
-        },
-        {
-          "name": "Caves of Hercules",
-          "description": "A natural cave with a legendary connection to Hercules, offering scenic views.",
-          "image": "caves_of_hercules.jpg",
-          "location": "Caves of Hercules, Tanger, Morocco"
-        },
-        {
-          "name": "Parc Perdicaris",
-          "description": "A serene park with diverse plant life, named after a historical figure.",
-          "image": "parc_perdicaris.jpg",
-          "location": "Parc Perdicaris, Tanger, Morocco"
-        }
-      ]
-    },
-    {
-      id:3,
-      "city": "Rabat",
-      "places": [
-        {
-          "name": "Royal Palace of Rabat",
-          "description": "The official residence of the King of Morocco, known for its grand architecture.",
-          "image": "royal_palace_rabat.jpg",
-          "location": "Royal Palace of Rabat, Rabat, Morocco"
-        },
-        {
-          "name": "Chellah Necropolis",
-          "description": "An ancient Roman and medieval Muslim necropolis with picturesque ruins.",
-          "image": "chellah_necropolis.jpg",
-          "location": "Chellah Necropolis, Rabat, Morocco"
-        },
-        {
-          "name": "Rabat Archaeological Museum",
-          "description": "A museum housing a rich collection of artifacts from Morocco's archaeological sites.",
-          "image": "rabat_archaeological_museum.jpg",
-          "location": "Rabat Archaeological Museum, Rabat, Morocco"
-        }
-      ]
-    },
-    {
-      id:4,
-      "city": "Marrakech",
-      "places": [
-        {
-          "name": "Jardin Majorelle",
-          "description": "A vibrant garden designed by Jacques Majorelle, featuring exotic plants and blue structures.",
-          "image": "jardin_majorelle.jpg",
-          "location": "Jardin Majorelle, Marrakech, Morocco"
-        },
-        {
-          "name": "Bahia Palace",
-          "description": "A magnificent palace with stunning gardens, once home to a grand vizier.",
-          "image": "bahia_palace.jpg",
-          "location": "Bahia Palace, Marrakech, Morocco"
-        },
-        {
-          "name": "Saadian Tombs",
-          "description": "Historical tombs dating back to the Saadian dynasty, rediscovered in 1917.",
-          "image": "saadian_tombs.jpg",
-          "location": "Saadian Tombs, Marrakech, Morocco"
-        }
-      ]
-    },
-    {
-      id:5,
-      "city": "Casablanca",
-      "places": [
-        {
-          "name": "Hassan II Mosque",
-          "description": "A grand mosque with intricate architecture, situated on the Atlantic Ocean.",
-          "image": "hassan_ii_mosque.jpg",
-          "location": "Hassan II Mosque, Casablanca, Morocco"
-        },
-        {
-          "name": "Old Medina",
-          "description": "A historic walled area with narrow streets, traditional markets, and historic sites.",
-          "image": "old_medina_casablanca.jpg",
-          "location": "Old Medina, Casablanca, Morocco"
-        },
-        {
-          "name": "Corniche Ain Diab",
-          "description": "A popular waterfront area with cafes, restaurants, and scenic views of the sea.",
-          "image": "corniche_ain_diab.jpg",
-          "location": "Corniche Ain Diab, Casablanca, Morocco"
-        }
-      ]
-    },
+    
+   
     {
       id:6,
       "city": "Fes",
@@ -1203,19 +1205,19 @@ app.get('/PopularPlaces',(req,res)=>{
         {
           "name": "Medina of Fes",
           "description": "A UNESCO World Heritage Site, the ancient and bustling heart of Fes.",
-          "image": "medina_of_fes.jpg",
+          "image": "https://cdn.kimkim.com/files/a/images/2383dec353573d5fdab0c729fdf446159f972d95/big-cb0f68b7a02884a4ddc0c21ae1bc9c08.jpg",
           "location": "Medina of Fes, Fes, Morocco"
         },
         {
           "name": "Bou Inania Madrasa",
           "description": "A beautifully decorated madrasa showcasing Islamic architecture and design.",
-          "image": "bou_inania_madrasa.jpg",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/3e/ab/47/caption.jpg?w=1200&h=1200&s=1",
           "location": "Bou Inania Madrasa, Fes, Morocco"
         },
         {
           "name": "Dar Batha Museum",
           "description": "A museum housed in a former palace, featuring Moroccan art and artifacts.",
-          "image": "dar_batha_museum.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dar_Batha_DSCF2861.jpg",
           "location": "Dar Batha Museum, Fes, Morocco"
         }
       ]
