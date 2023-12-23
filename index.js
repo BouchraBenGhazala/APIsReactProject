@@ -676,7 +676,7 @@ app.get('/CityHotels',(req,res)=>{
             amenities: ["Executive Suites", "Gourmet Dining", "Spa"],
             averagePriceFor2Persn: "2270MAD",
             photos: ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/111231833.jpg?k=d6964b1e5ab0871c714e86394a805fe95e6aea12c06fd1214993f0eeeb59b7ac&o=&hp=1",
-                     "https://scontent.fcmn1-2.fna.fbcdn.net/v/t39.30808-6/241184044_4225043500924746_2267611381889388139_n.jpg?stp=dst-jpg_p640x640&_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_ohc=7DY-qc3aXPgAX_96Vlp&_nc_zt=23&_nc_ht=scontent.fcmn1-2.fna&oh=00_AfCOGOf2gfFT5qpdHtP4VC5C7qaFNkRY8s_7_o81_cloBg&oe=6573DED0", 
+                     "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e5/6d/e6/the-view-hotel.jpg?w=700&h=-1&s=1", 
                      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/100492717.jpg?k=b19d2e93ba0058b4f6a361c6926039d812ad7904491505bf7ae81c9c8d0e6927&o=&hp=1"
                     ]
           },
