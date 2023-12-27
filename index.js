@@ -1084,19 +1084,22 @@ app.get('/PopularPlaces',(req,res)=>{
           "name": "Hassan II Mosque",
           "description": "A grand mosque with intricate architecture, situated on the Atlantic Ocean.",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/4d/c3/07/ii.jpg?w=1200&h=1200&s=1",
-          "location": "Hassan II Mosque, Casablanca, Morocco"
+          "location": "Hassan II Mosque, Casablanca, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.887516333971!2d-7.637174111145022!3d33.608222899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2607994d58f%3A0x67a1d618e7b0d072!2sHassan%20II%20Mosque!5e0!3m2!1sen!2sma!4v1703418185557!5m2!1sen!2sma"
         },
         {
           "name": "Old Medina",
           "description": "A historic walled area with narrow streets, traditional markets, and historic sites.",
           "image": "https://cdn-v2.theculturetrip.com/1200x630/wp-content/uploads/2021/05/casablanca-old-medina.webp",
-          "location": "Old Medina, Casablanca, Morocco"
+          "location": "Old Medina, Casablanca, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26586.362276125015!2d-7.634138901358215!3d33.5976421398316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d282e5988067%3A0xafde413f823dc2d7!2sOld%20City%20(Casablanca)%2C%20Casablanca%2020250!5e0!3m2!1sen!2sma!4v1703416653313!5m2!1sen!2sma"
         },
         {
           "name": "Corniche Ain Diab",
           "description": "A popular waterfront area with cafes, restaurants, and scenic views of the sea.",
           "image": "https://www.casa-amenagement.ma/uploads/projets/400x400/33d81607c3d763ba1fac44dabd2b91132257bbd0.jpg",
-          "location": "Corniche Ain Diab, Casablanca, Morocco"
+          "location": "Corniche Ain Diab, Casablanca, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.71573886508!2d-7.683649116645324!3d33.594173547225104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d30daf658fe7%3A0x2c395bb9cd53ac7b!2sLa%20Corniche%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1703416692605!5m2!1sen!2sma"
         }
       ]
     },
@@ -1108,120 +1111,136 @@ app.get('/PopularPlaces',(req,res)=>{
           "name": "Kasbah Museum",
           "description": "A historic fortress turned museum, showcasing artifacts from Tangier's past.",
           "image": "https://www.wowabouts.com/z-media/2018/10/Kasbah%20Museum%20Tangier%201.jpg",
-          "location": "Kasbah Museum, Tangier, Morocco"
+          "location": "Kasbah Museum, Tangier, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.4769610276167!2d-5.815011125779396!3d35.7882224240919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f4da1ac9fe5%3A0x7846ff8885f795c7!2sKasbah%20Museum!5e0!3m2!1sen!2sma!4v1703416733787!5m2!1sen!2sma"
         },
         {
           "name": "Caves of Hercules",
           "description": "A natural cave with a legendary connection to Hercules, offering scenic views.",
           "image": "https://img.atlasobscura.com/3ecxzsDuOZkCbO0qjx1Ym3Si_JIgaVTkZxs2s_YYVm0/rs:fill:580:580:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wMzgw/OGI0YS01YmU1LTRm/MTctYmQ5NS1kZmJl/NTQ0ZWE1ZGI5NjNm/Y2YxOThjMDE0YWE5/NzBfQ3VldmFzX2Rl/X0hlzIFyY3VsZXMs/X0NhYm9fRXNwYXJ0/ZWwsX01hcnJ1ZWNv/cyxfMjAxNS0xMi0x/MSxfRERfMjItMjRf/SERSLmpwZWc.jpg",
-          "location": "Caves of Hercules, Tangier, Morocco"
+          "location": "Caves of Hercules, Tangier, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.6283774067147!2d-5.941806825781053!3d35.75993782564896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b882d10964725%3A0xa9ac855c8cfd195a!2sHercules%20Caves!5e0!3m2!1sen!2sma!4v1703416762560!5m2!1sen!2sma"
         },
         {
           "name": "Parc Perdicaris",
           "description": "A serene park with diverse plant life, named after a historical figure.",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/b1/d6/c6/parc-perdicaris.jpg?w=1200&h=-1&s=1",
-          "location": "Parc Perdicaris, Tangier, Morocco"
+          "location": "Parc Perdicaris, Tangier, Morocco",
+          "frameSource":src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.284001061845!2d-5.866917711145019!3d35.7929606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c78671386ebad%3A0x5a16840a29c13148!2sRmilat%20Park!5e0!3m2!1sen!2sma!4v1703416799728!5m2!1sen!2sma"
         }
       ]
     },
     {
       id:3,
-      "city": "Marrakech",
-      "places": [
-        {
-          "name": "Jardin Majorelle",
-          "description": "A vibrant garden designed by Jacques Majorelle, featuring exotic plants and blue structures.",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4f/7f/06/20190418-125956-largejpg.jpg?w=1200&h=-1&s=1",
-          "location": "Jardin Majorelle, Marrakech, Morocco"
-        },
-        {
-          "name": "Bahia Palace",
-          "description": "A magnificent palace with stunning gardens, once home to a grand vizier.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bahia_Palace_large_court.jpg",
-          "location": "Bahia Palace, Marrakech, Morocco"
-        },
-        {
-          "name": "Saadian Tombs",
-          "description": "Historical tombs dating back to the Saadian dynasty, rediscovered in 1917.",
-          "image": "https://womenbesttravel.com/wp-content/uploads/2020/11/Saadian-Tombs-Marrakech-Opening-Hours-Location-and-entrance-fees5-1.jpg",
-          "location": "Saadian Tombs, Marrakech, Morocco"
-        }
-      ]
-    },
-    {
-      id:4,
-      "city": "Rabat",
-      "places": [
-        {
-          "name": "Royal Palace of Rabat",
-          "description": "The official residence of the King of Morocco, known for its grand architecture.",
-          "image": "https://www.story-rabat.com/wp-content/uploads/2023/09/2_2_11zon-1.webp",
-          "location": "Royal Palace of Rabat, Rabat, Morocco"
-        },
-        {
-          "name": "Chellah Necropolis",
-          "description": "An ancient Roman and medieval Muslim necropolis with picturesque ruins.",
-          "image": "https://www.visitrabat.com/wp-content/uploads/2019/04/chellah_111.jpg",
-          "location": "Chellah Necropolis, Rabat, Morocco"
-        },
-        {
-          "name": "Rabat Archaeological Museum",
-          "description": "A museum housing a rich collection of artifacts from Morocco's archaeological sites.",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/85/ae/39/the-main-gallery.jpg?w=1200&h=-1&s=1",
-          "location": "Rabat Archaeological Museum, Rabat, Morocco"
-        }
-      ]
-    },
-    {
-      id:5,
-      city: "Agadir",
-      places: [
-        {
-          "name": "Agadir Beach",
-          "description": "A beautiful sandy beach with a stunning view of the Atlantic Ocean.",
-          "image": "https://www.worldbeachguide.com/photos/agadir-beach-view.jpg",
-          "location": "Agadir Beach, Agadir, Morocco"
-        },
-        {
-          "name": "Souk El Had",
-          "description": "A bustling market offering a variety of goods, from spices to traditional crafts.",
-          "image": "https://lh3.googleusercontent.com/p/AF1QipN9kN0qwWmL3PwzoVxN5z5z0a_b77vG0CBsX5Xa=s1360-w1360-h1020",
-          "location": "Souk El Had, Agadir, Morocco"
-        },
-        {
-          "name": "Valley of the Birds",
-          "description": "A lush park where visitors can enjoy the company of various bird species.",
-          "image": "https://lh3.googleusercontent.com/p/AF1QipNInGpYV1ByJ77oqGzMHR5WpU2I6m8QyP-QzCqK=s1360-w1360-h1020",
-          "location": "Valley of the Birds, Agadir, Morocco"
-        }
-      ]
-    },
-    
-   
-    {
-      id:6,
       "city": "Fes",
       "places": [
         {
           "name": "Medina of Fes",
           "description": "A UNESCO World Heritage Site, the ancient and bustling heart of Fes.",
           "image": "https://cdn.kimkim.com/files/a/images/2383dec353573d5fdab0c729fdf446159f972d95/big-cb0f68b7a02884a4ddc0c21ae1bc9c08.jpg",
-          "location": "Medina of Fes, Fes, Morocco"
+          "location": "Medina of Fes, Fes, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13220.829828739348!2d-4.983362016221438!3d34.06419579633942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9ff357f8485b33%3A0xe56f78fac206cf2b!2sFes%20El%20Bali%2C%20Fes!5e0!3m2!1sen!2sma!4v1703416835577!5m2!1sen!2sma"
         },
         {
           "name": "Bou Inania Madrasa",
           "description": "A beautifully decorated madrasa showcasing Islamic architecture and design.",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/3e/ab/47/caption.jpg?w=1200&h=1200&s=1",
-          "location": "Bou Inania Madrasa, Fes, Morocco"
+          "location": "Bou Inania Madrasa, Fes, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.286874873672!2d-4.985315325879449!3d34.06215961720929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9ff4af477e648d%3A0x957eb0f34b372714!2sBou%20Inania%20Madrasa!5e0!3m2!1sen!2sma!4v1703416921586!5m2!1sen!2sma"
         },
         {
           "name": "Dar Batha Museum",
           "description": "A museum housed in a former palace, featuring Moroccan art and artifacts.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dar_Batha_DSCF2861.jpg",
-          "location": "Dar Batha Museum, Fes, Morocco"
+          "location": "Dar Batha Museum, Fes, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.3494566114427!2d-4.985245725879545!3d34.0605550172941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9ff4aed90b70d3%3A0xc44a61c2c91a5c87!2sDar%20Batha%20Museum!5e0!3m2!1sen!2sma!4v1703416962460!5m2!1sen!2sma"
         }
       ]
-    }
+    },
+    {
+      id:4,
+      "city": "Marrakech",
+      "places": [
+        {
+          "name": "Jardin Majorelle",
+          "description": "A vibrant garden designed by Jacques Majorelle, featuring exotic plants and blue structures.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4f/7f/06/20190418-125956-largejpg.jpg?w=1200&h=-1&s=1",
+          "location": "Jardin Majorelle, Marrakech, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.7312624858205!2d-8.005814626011857!3d31.641207641164883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee878b66b78f%3A0x88ccf6c9ced0f11c!2sJardin%20Majorelle!5e0!3m2!1sen!2sma!4v1703416998211!5m2!1sen!2sma"
+        },
+        {
+          "name": "Bahia Palace",
+          "description": "A magnificent palace with stunning gardens, once home to a grand vizier.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bahia_Palace_large_court.jpg",
+          "location": "Bahia Palace, Marrakech, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.443281951164!2d-7.9845437260128564!3d31.62171124213112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee4772c14bab%3A0x82985f4745817fdb!2sBahia%20Palace!5e0!3m2!1sen!2sma!4v1703417026675!5m2!1sen!2sma"
+        },
+        {
+          "name": "Saadian Tombs",
+          "description": "Historical tombs dating back to the Saadian dynasty, rediscovered in 1917.",
+          "image": "https://womenbesttravel.com/wp-content/uploads/2020/11/Saadian-Tombs-Marrakech-Opening-Hours-Location-and-entrance-fees5-1.jpg",
+          "location": "Saadian Tombs, Marrakech, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.6113688511473!2d-7.99161222601309!3d31.61710714235914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee4f1b2c320b%3A0xfdc76aef839e6ece!2sSaadian%20Tombs!5e0!3m2!1sen!2sma!4v1703417052019!5m2!1sen!2sma"
+        }
+      ]
+    },
+    {
+      id:5,
+      "city": "Rabat",
+      "places": [
+        {
+          "name": "Royal Palace of Rabat",
+          "description": "The official residence of the King of Morocco, known for its grand architecture.",
+          "image": "https://www.story-rabat.com/wp-content/uploads/2023/09/2_2_11zon-1.webp",
+          "location": "Royal Palace of Rabat, Rabat, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.6469118123755!2d-6.843367925882901!3d34.001602020405336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76c8405ecff2f%3A0x328c8da1200b9600!2sRoyal%20Palace%20Rabat%20Morocco!5e0!3m2!1sen!2sma!4v1703417081795!5m2!1sen!2sma"
+        },
+        {
+          "name": "Chellah Necropolis",
+          "description": "An ancient Roman and medieval Muslim necropolis with picturesque ruins.",
+          "image": "https://www.visitrabat.com/wp-content/uploads/2019/04/chellah_111.jpg",
+          "location": "Chellah Necropolis, Rabat, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.4511841550193!2d-6.822969325882601!3d34.00662792014026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b764e534c87%3A0xa70cd79ca5c23e85!2sChellah!5e0!3m2!1sen!2sma!4v1703417108548!5m2!1sen!2sma"
+        },
+        {
+          "name": "Rabat Archaeological Museum",
+          "description": "A museum housing a rich collection of artifacts from Morocco's archaeological sites.",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/85/ae/39/the-main-gallery.jpg?w=1200&h=-1&s=1",
+          "location": "Rabat Archaeological Museum, Rabat, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1688590783647!2d-6.834129425882249!3d34.01387631975796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b812ceaaaab%3A0xe13fce3ce17ec93b!2sMuseum%20of%20History%20and%20Civilizations!5e0!3m2!1sen!2sma!4v1703417141441!5m2!1sen!2sma"
+        }
+      ]
+    },
+    {
+      id:6,
+      city: "Agadir",
+      places: [
+        {
+          "name": "Agadir Beach",
+          "description": "A beautiful sandy beach with a stunning view of the Atlantic Ocean.",
+          "image": "https://www.worldbeachguide.com/photos/agadir-beach-view.jpg",
+          "location": "Agadir Beach, Agadir, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55058.46625101635!2d-9.648439669237534!3d30.40336831434941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b7228924bc3f%3A0x358f79904e435916!2zQWdhZGlyIEJlYWNoINi02KfYt9imINij2YPYp9iv2YrYsQ!5e0!3m2!1sen!2sma!4v1703418302366!5m2!1sen!2sma"
+        },
+        {
+          "name": "Souk El Had",
+          "description": "A bustling market offering a variety of goods, from spices to traditional crafts.",
+          "image": "https://lh3.googleusercontent.com/p/AF1QipN9kN0qwWmL3PwzoVxN5z5z0a_b77vG0CBsX5Xa=s1360-w1360-h1020",
+          "location": "Souk El Had, Agadir, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.838254810314!2d-9.582748926075405!3d30.412330601049767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b651bf98bc1b%3A0xd8649dee84e320a3!2sSouk%20El%20Had!5e0!3m2!1sen!2sma!4v1703417214297!5m2!1sen!2sma"
+        },
+        {
+          "name": "Valley of the Birds",
+          "description": "A lush park where visitors can enjoy the company of various bird species.",
+          "image": "https://lh3.googleusercontent.com/p/AF1QipNInGpYV1ByJ77oqGzMHR5WpU2I6m8QyP-QzCqK=s1360-w1360-h1020",
+          "location": "Valley of the Birds, Agadir, Morocco",
+          "frameSource":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.61991227721!2d-9.605831726075031!3d30.418524000753024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b6eeffcee39b%3A0xae6a49e7878f01b8!2sAgadir%20Birds%20Valley!5e0!3m2!1sen!2sma!4v1703417247539!5m2!1sen!2sma"
+        }
+      ]
+    },
+    
+   
+   
   ]
   })
 })
