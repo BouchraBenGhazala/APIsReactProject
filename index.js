@@ -780,7 +780,7 @@ app.get('/CityHotels',(req,res)=>{
             address: "Avenue Bab Jdid, Marrakech 40040, Morocco",
             amenities: ["Royal Suites", "Gardens", "Michelin Star Restaurant"],
             averagePriceFor2Persn: "7000MAD",
-            photos: ["https://mamounia.com/media/cache/jadro_resize/rc/9Qszg6tN1700567529/jadroRoot/medias/611cca0f424ac/le-pavillon-de-la-piscine-0800.jpg",
+            photos: ["https://media.admagazine.fr/photos/60c765a4de8b8817c4f8ebff/16:9/w_832,h_468,c_limit/hc_8535.jpeg",
                      "https://www.kayak.fr/rimg/himg/85/df/34/leonardo-2680807-Al_Mamoun_Suite_(3)_O-918712.jpg?width=1366&height=768&crop=true", 
                      "https://www.laurentdelporte.com/wp-content/uploads/2018/03/1300HP-803725605939386791y6747_G-iloveimg-resized-iloveimg-cropped.jpg"
                     ]
