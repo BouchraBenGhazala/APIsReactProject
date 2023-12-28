@@ -190,127 +190,137 @@ app.get('/stadium',(req,res)=>{
     })
 });
 
-app.get('/historyCities',(req,res)=>{
-    res.status(200).send({
-        historyCities:[
+app.get('/historyCities', (req, res) => {
+  res.status(200).send({
+      historyCities: [
           {
-            id: 1,
-            cityName: "Agadir",
-            overview: "Agadir is a coastal city in southwestern Morocco known for its beautiful beaches and modern architecture. Historically, Agadir faced a devastating earthquake in 1960, leading to the reconstruction of the city. Today, it is a popular tourist destination and a key economic hub in the region.",
-            climate: "Agadir has a mild Mediterranean climate, with hot summers and warm winters. The city enjoys a significant amount of sunshine throughout the year.",
-            population: 600000,
-            languages: ["Arabic", "Amazigh", "French"],
-            industries: ["Tourism", "Fishing", "Agriculture"],
-            universities: ["University of Ibn Zohr"],
-            keyEvents: [
-              { year: 1960, event: "Destructive earthquake hits Agadir, leading to significant reconstruction efforts." },
-              { year: 2000, event: "Agadir becomes a major tourist destination, attracting visitors from around the world." },
-            ],
-            notableLandmarks: [
-              "Kasbah of Agadir Oufella",
-              "Valley of the Birds",
-              "La Médina d'Agadir"
-            ],
+              id: 1,
+              cityName: "Agadir",
+              overview: "Agadir is a coastal city in southwestern Morocco known for its beautiful beaches and modern architecture. Historically, Agadir faced a devastating earthquake in 1960, leading to the reconstruction of the city. Today, it is a popular tourist destination and a key economic hub in the region.",
+              climate: "Agadir has a mild Mediterranean climate, with hot summers and warm winters. The city enjoys a significant amount of sunshine throughout the year.",
+              population: 600000,
+              languages: ["Arabic", "Amazigh", "French"],
+              industries: ["Tourism", "Fishing", "Agriculture"],
+              universities: ["University of Ibn Zohr"],
+              keyEvents: [
+                  { year: 1960, event: "Destructive earthquake hits Agadir, leading to significant reconstruction efforts." },
+                  { year: 2000, event: "Agadir becomes a major tourist destination, attracting visitors from around the world." },
+              ],
+              notableLandmarks: [
+                  "Kasbah of Agadir Oufella",
+                  "Valley of the Birds",
+                  "La Médina d'Agadir"
+              ],
+              image: "https://www.jally.de/media/1020/1511-agadir-marina-sunset-wallpaper-hd.jpg",
+              yearBuilt: 1960
           },
           {
-            id: 2,
-            cityName: "Tangier",
-            overview: "Tangier, located at the northern tip of Morocco, is a historic port city with a rich cultural heritage. It has been a crossroads of various civilizations and is known for its unique blend of European and Moroccan influences.",
-            climate: "Tangier experiences a Mediterranean climate with warm, dry summers and mild, wet winters. The city enjoys a strategic position overlooking the Strait of Gibraltar.",
-            population: 950000,
-            languages: ["Arabic", "French"],
-            industries: ["Port and Maritime Trade", "Tourism", "Textiles"],
-            universities: ["Abdelmalek Essaâdi University"],
-            keyEvents: [
-              { year: 1923, event: "Treaty of Tangier grants international status to the city, leading to its multicultural character." },
-              { year: 1956, event: "Morocco gains independence, and Tangier becomes part of the newly formed Kingdom of Morocco." },
-            ],
-            notableLandmarks: [
-              "The Kasbah Museum",
-              "Grand Socco",
-              "Caves of Hercules"
-            ],
+              id: 2,
+              cityName: "Tangier",
+              overview: "Tangier, located at the northern tip of Morocco, is a historic port city with a rich cultural heritage. It has been a crossroads of various civilizations and is known for its unique blend of European and Moroccan influences.",
+              climate: "Tangier experiences a Mediterranean climate with warm, dry summers and mild, wet winters. The city enjoys a strategic position overlooking the Strait of Gibraltar.",
+              population: 950000,
+              languages: ["Arabic", "French"],
+              industries: ["Port and Maritime Trade", "Tourism", "Textiles"],
+              universities: ["Abdelmalek Essaâdi University"],
+              keyEvents: [
+                  { year: 1923, event: "Treaty of Tangier grants international status to the city, leading to its multicultural character." },
+                  { year: 1956, event: "Morocco gains independence, and Tangier becomes part of the newly formed Kingdom of Morocco." },
+              ],
+              notableLandmarks: [
+                  "The Kasbah Museum",
+                  "Grand Socco",
+                  "Caves of Hercules"
+              ],
+              image: "https://e0.pxfuel.com/wallpapers/396/62/desktop-wallpaper-tangier-tangier-background-on-bat.jpg",
+              yearBuilt: 1923
           },
           {
-            id: 3,
-            cityName: "Rabat",
-            overview: "Rabat, the capital of Morocco, is a city with a rich history and a mix of modern and traditional elements. It has been the political and administrative center of the country for centuries.",
-            climate: "Rabat experiences a Mediterranean climate with warm, dry summers and mild, wet winters. The city benefits from its coastal location along the Atlantic Ocean.",
-            population: 1200000,
-            languages: ["Arabic", "French"],
-            industries: ["Government Services", "Education", "Tourism"],
-            universities: ["Mohammed V University", "International University of Rabat"],
-            keyEvents: [
-              { year: 1150, event: "Construction of the Hassan Tower and the beginnings of the Kasbah of the Udayas." },
-              { year: 1912, event: "French protectorate established in Morocco, with Rabat as a key administrative center." },
-            ],
-            notableLandmarks: [
-              "Hassan Tower",
-              "Chellah Necropolis",
-              "Royal Palace of Rabat"
-            ],
+              id: 3,
+              cityName: "Rabat",
+              overview: "Rabat, the capital of Morocco, is a city with a rich history and a mix of modern and traditional elements. It has been the political and administrative center of the country for centuries.",
+              climate: "Rabat experiences a Mediterranean climate with warm, dry summers and mild, wet winters. The city benefits from its coastal location along the Atlantic Ocean.",
+              population: 1200000,
+              languages: ["Arabic", "French"],
+              industries: ["Government Services", "Education", "Tourism"],
+              universities: ["Mohammed V University", "International University of Rabat"],
+              keyEvents: [
+                  { year: 1150, event: "Construction of the Hassan Tower and the beginnings of the Kasbah of the Udayas." },
+                  { year: 1912, event: "French protectorate established in Morocco, with Rabat as a key administrative center." },
+              ],
+              notableLandmarks: [
+                  "Hassan Tower",
+                  "Chellah Necropolis",
+                  "Royal Palace of Rabat"
+              ],
+              image: "https://e1.pxfuel.com/desktop-wallpaper/1012/255/desktop-wallpaper-morocco-rabat-morocco.jpg",
+              yearBuilt: 1150
           },
           {
-            id: 4,
-            cityName: "Marrakech",
-            overview: "Marrakech, also known as the 'Red City,' is famous for its vibrant markets, historic palaces, and bustling medinas. It has a rich cultural history as a former imperial city.",
-            climate: "Marrakech has a hot semi-arid climate with extremely hot summers and mild winters. The city is known for its distinct red buildings and sandy surroundings.",
-            population: 1000000,
-            languages: ["Arabic", "Amazigh", "French"],
-            industries: ["Tourism", "Handicrafts", "Entertainment"],
-            universities: ["Cadi Ayyad University"],
-            keyEvents: [
-              { year: 1062, event: "Foundation of Marrakech by the Almoravid dynasty." },
-              { year: 1971, event: "Marrakech hosts the memorial of Josephine Baker, a famous dancer and singer." },
-            ],
-            notableLandmarks: [
-              "Jamaa el Fna Square",
-              "Koutoubia Mosque",
-              "Bahia Palace"
-            ],
+              id: 4,
+              cityName: "Marrakech",
+              overview: "Marrakech, also known as the 'Red City,' is famous for its vibrant markets, historic palaces, and bustling medinas. It has a rich cultural history as a former imperial city.",
+              climate: "Marrakech has a hot semi-arid climate with extremely hot summers and mild winters. The city is known for its distinct red buildings and sandy surroundings.",
+              population: 1000000,
+              languages: ["Arabic", "Amazigh", "French"],
+              industries: ["Tourism", "Handicrafts", "Entertainment"],
+              universities: ["Cadi Ayyad University"],
+              keyEvents: [
+                  { year: 1062, event: "Foundation of Marrakech by the Almoravid dynasty." },
+                  { year: 1971, event: "Marrakech hosts the memorial of Josephine Baker, a famous dancer and singer." },
+              ],
+              notableLandmarks: [
+                  "Jamaa el Fna Square",
+                  "Koutoubia Mosque",
+                  "Bahia Palace"
+              ],
+              image: "https://c1.wallpaperflare.com/preview/570/138/559/morocco-oriental-marrakech-orient.jpg",
+              yearBuilt: 1062
           },
           {
-            id: 5,
-            cityName: "Casablanca",
-            overview: "Casablanca is Morocco's largest city and a major economic hub. Known for its modern architecture and vibrant atmosphere, it has played a significant role in Morocco's development.",
-            climate: "Casablanca experiences a Mediterranean climate with hot, dry summers and mild, wet winters. The city is characterized by its modern skyscrapers and coastal location.",
-            population: 3600000,
-            languages: ["Arabic", "French"],
-            industries: ["Finance", "Trade", "Technology"],
-            universities: ["Hassan II University", "Casablanca American School"],
-            keyEvents: [
-              { year: 1907, event: "Construction of the Casablanca Cathedral, a symbol of the city's French colonial history." },
-              { year: 1942, event: "Casablanca Conference during World War II, attended by Winston Churchill and Franklin D. Roosevelt." },
-            ],
-            notableLandmarks: [
-              "Hassan II Mosque",
-              "Corniche Ain Diab",
-              "Old Medina of Casablanca"
-            ],
+              id: 5,
+              cityName: "Casablanca",
+              overview: "Casablanca is Morocco's largest city and a major economic hub. Known for its modern architecture and vibrant atmosphere, it has played a significant role in Morocco's development.",
+              climate: "Casablanca experiences a Mediterranean climate with hot, dry summers and mild, wet winters. The city is characterized by its modern skyscrapers and coastal location.",
+              population: 3600000,
+              languages: ["Arabic", "French"],
+              industries: ["Finance", "Trade", "Technology"],
+              universities: ["Hassan II University", "Casablanca American School"],
+              keyEvents: [
+                  { year: 1907, event: "Construction of the Casablanca Cathedral, a symbol of the city's French colonial history." },
+                  { year: 1942, event: "Casablanca Conference during World War II, attended by Winston Churchill and Franklin D. Roosevelt." },
+              ],
+              notableLandmarks: [
+                  "Hassan II Mosque",
+                  "Corniche Ain Diab",
+                  "Old Medina of Casablanca"
+              ],
+              image: "https://e0.pxfuel.com/wallpapers/80/619/desktop-wallpaper-beautiful-of-casablanca-morocco.jpg",
+              yearBuilt: 1907
           },
           {
-            id: 6,
-            cityName: "Fes",
-            overview: "Fes, one of the oldest imperial cities in Morocco, is known for its well-preserved historic medina and traditional crafts. It has been a center of learning and culture for centuries.",
-            climate: "Fes experiences a Mediterranean climate with hot, dry summers and cool, wet winters. The city is renowned for its ancient university and traditional Moroccan architecture.",
-            population: 1200000,
-            languages: ["Arabic", "Amazigh", "French"],
-            industries: ["Handicrafts", "Education", "Tourism"],
-            universities: ["University of Al Quaraouiyine"],
-            keyEvents: [
-              { year: 808, event: "Foundation of the University of Al Quaraouiyine in Fes, considered the oldest continuously operating educational institution in the world." },
-              { year: 1276, event: "Construction of the Madrasa Bou Inania, a masterpiece of Marinid architecture." },
-            ],
-            notableLandmarks: [
-              "Fes el Bali (Medina of Fes)",
-              "Al-Attarine Madrasa",
-              "Bab Bou Jeloud (Blue Gate)"
-            ],
+              id: 6,
+              cityName: "Fes",
+              overview: "Fes, one of the oldest imperial cities in Morocco, is known for its well-preserved historic medina and traditional crafts. It has been a center of learning and culture for centuries.",
+              climate: "Fes experiences a Mediterranean climate with hot, dry summers and cool, wet winters. The city is renowned for its ancient university and traditional Moroccan architecture.",
+              population: 1200000,
+              languages: ["Arabic", "Amazigh", "French"],
+              industries: ["Handicrafts", "Education", "Tourism"],
+              universities: ["University of Al Quaraouiyine"],
+              keyEvents: [
+                  { year: 808, event: "Foundation of the University of Al Quaraouiyine in Fes, considered the oldest continuously operating educational institution in the world." },
+                  { year: 1276, event: "Construction of the Madrasa Bou Inania, a masterpiece of Marinid architecture." },
+              ],
+              notableLandmarks: [
+                  "Fes el Bali (Medina of Fes)",
+                  "Al-Attarine Madrasa",
+                  "Bab Bou Jeloud (Blue Gate)"
+              ],
+              image: "https://e1.pxfuel.com/desktop-wallpaper/4/301/desktop-wallpaper-fez-day-trip-from-casablanca-fes.jpg",
+              yearBuilt: 808
           },
-
       ]
-
-    })
+  });
 });
 app.get('/TraditionsCultures',(req,res)=>{
   res.status(200).send({
