@@ -329,139 +329,201 @@ app.get('/TraditionsCultures',(req,res)=>{
         id:1,
         name: "Agadir",
         traditions: {
-          festivals: ["Agadir Festival", "Timitar Festival"],
-          local_cuisine: ["Amlou", "Fish Chermoula"],
-          crafts: ["Agadir pottery", "Argan oil products"],
-          traditional_clothing: ["Amazigh clothing"],
-          historical_sites: ["Kasbah of Agadir", "Agadir Oufella"]
+          festivals: {
+            names:["Agadir Festival", "Timitar Festival"],
+            images:["https://explore-agadirsoussmassa.com/wp-content/uploads/2020/06/Capture-d%E2%80%99e%CC%81cran-2020-06-24-a%CC%80-16.50.50-min.png","https://www.lopinion.ma/photo/art/grande/66131013-47045633.jpg?v=1658161315"],
+
         },
-        "culture": {
+          "local cuisine": {
+            names:["Amlou", "Fish Chermoula"],
+            images:["https://biomielandco.com/modules/ph_simpleblog/covers/71.jpg", "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/6/20/1/QF0205_Grilled-White-Fish-with-Chermoula-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541459109.jpeg"],
+          },
+          crafts: {
+            names:["Agadir pottery", "Argan oil products"],
+            images:["https://immersi-travel.com/wp-content/uploads/2023/08/Atelier-poterie-avec-Anglais-a-Agadir-1.jpeg", "https://s-argane.com/wp-content/uploads/2019/05/slide1.png"],
+          },
+          "traditional clothing": {
+            names:["Amazigh clothing"],
+            images: ["https://i.etsystatic.com/27235153/r/il/11aa20/3595736915/il_570xN.3595736915_a1ji.jpg"],
+          },
+
+        },
+        culture: {
           "language": "Tamazight",
           "music": "Amazigh music",
           "landmarks": ["Kasbah of Agadir", "Agadir Oufella"]
         },
-        "images": {
-          "festivals": ["agadir_festival.jpg", "timitar_festival.jpg"],
-          "local_cuisine": ["amlou.jpg", "fish_chermoula.jpg"],
-          "crafts": ["agadir_pottery.jpg", "argan_oil_products.jpg"],
-          "traditional_clothing": ["amazigh_clothing.jpg"],
-          "historical_sites": ["kasbah_of_agadir.jpg", "agadir_oufella.jpg"]
-        }
       },
       {
         id:2,
         "name": "Tangier",
         "traditions": {
-          "festivals": ["Tangier International Film Festival", "Tanjazz Festival"],
-          "local_cuisine": ["Tajine", "Mint Tea"],
-          "crafts": ["Tangier ceramics", "Leather goods"],
-          "traditional_clothing": ["Traditional Moroccan Djellaba"],
-          "historical_sites": ["Kasbah of Tangier", "Grand Socco"]
+          "festivals": {
+            names:["Tangier International Film Festival", "Tanjazz Festival"],
+            images:["https://www.atalayar.com/asset/thumbnail,1280,720,center,center/media/atalayar/images/2023/05/08/20230508102704087392.jpg", "https://www.mapnews.ma/en/sites/default/files/styles/corps_article_image/public/24389.jpg?itok=LFkTi8-Y.jpg"],
+        },
+          "local cuisine": {
+            names:["Tajine", "Mint Tea"],
+            images:["https://media-cdn.tripadvisor.com/media/photo-s/12/d4/09/b1/tajine-di-pollo-e-pesce.jpg", "https://live.staticflickr.com/2662/4113877383_e4026ed321_b.jpg"],
+          },
+          "crafts": {
+            names:["Tangier ceramics", "Leather goods"],
+            images:["https://www.barcelo.com/guia-turismo/wp-content/uploads/2022/01/tanger-zoco-888-1.jpg", "https://images.ferryhopper.com/images/articles/2022/tangier-shopping-guide/leather-slippers-babouches.jpg"],
+          },
+
+          "traditional clothing": 
+          {
+            names:["Traditional Moroccan Djellaba"],
+            images:["https://i.pinimg.com/736x/93/2a/ff/932affe828b9bd667674fede6cba779b.jpg"],
+          }
         },
         "culture": {
           "language": "Arabic",
           "music": "Andalusian music",
           "landmarks": ["Kasbah of Tangier", "Grand Socco"]
-        },
-        "images": {
-          "festivals": ["tangier_film_festival.jpg", "tanjazz_festival.jpg"],
-          "local_cuisine": ["tajine.jpg", "mint_tea.jpg"],
-          "crafts": ["tangier_ceramics.jpg", "leather_goods.jpg"],
-          "traditional_clothing": ["moroccan_djellaba.jpg"],
-          "historical_sites": ["kasbah_of_tangier.jpg", "grand_socco.jpg"]
         }
       },
       {
         id:3,
         "name": "Rabat",
         "traditions": {
-          "festivals": ["Mawazine Festival", "Rabat Biennale"],
-          "local_cuisine": ["Pastilla", "Zaalouk"],
-          "crafts": ["Rabat carpets", "Metalwork"],
-          "traditional_clothing": ["Traditional Moroccan Caftan"],
-          "historical_sites": ["Kasbah of the Udayas", "Hassan Tower"]
+          "festivals": 
+          {
+            names:["Mawazine Festival", "Rabat Biennale"],
+            images:["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ee/54/fb/mawazine-festival.jpg?w=1200&h=-1&s=1", "https://www.leconomiste.com/sites/default/files/eco7/public/biennale-de-rabat-098.jpg"],
+          },
+          
+          "local cuisine": 
+          {
+            names:["Pastilla", "Zaalouk"],
+            images: ["https://pastilla.shop/cdn/shop/files/Pastilla_Poulet_Amande_1_503x503.jpg?v=1695898102", "https://i.pinimg.com/originals/4c/22/34/4c2234709de14778e564d6d8ba6169e1.jpg"],
+          },
+          "crafts": 
+          {
+            names:["Rabat carpets", "Metalwork"],
+            images:["https://artlogic-res.cloudinary.com/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/joshualumleyltd/images/view/275acd925173acc6e96a71661e3e3911j/joshualumleyltd-rabat-rug-morocco.jpg", "https://thumbs.dreamstime.com/b/metal-goods-yard-shop-g-241568837.jpg"],
+          },
+          
+          "traditional clothing": 
+          {
+            names:["Traditional Moroccan Caftan"],
+            images:["https://www.shutterstock.com/image-photo/caftan-moroccan-white-gold-painting-600nw-1443743828.jpg"],
+          }
+        
         },
         "culture": {
           "language": "Arabic",
           "music": "Gnawa music",
           "landmarks": ["Kasbah of the Udayas", "Hassan Tower"]
         },
-        "images": {
-          "festivals": ["mawazine_festival.jpg", "rabat_biennale.jpg"],
-          "local_cuisine": ["pastilla.jpg", "zaalouk.jpg"],
-          "crafts": ["rabat_carpets.jpg", "metalwork.jpg"],
-          "traditional_clothing": ["moroccan_caftan.jpg"],
-          "historical_sites": ["kasbah_of_udayas.jpg", "hassan_tower.jpg"]
-        }
       },
       {
         id:4,
         "name": "Marrakech",
         "traditions": {
-          "festivals": ["Marrakech International Film Festival", "Marrakech Popular Arts Festival"],
-          "local_cuisine": ["Tagine", "Couscous"],
-          "crafts": ["Marrakech carpets", "Leather goods"],
-          "traditional_clothing": ["Traditional Moroccan Jellaba"],
-          "historical_sites": ["Jemaa el-Fnaa", "Majorelle Garden"]
+          "festivals": 
+          {
+            names:["Marrakech International Film Festival", "Marrakech Popular Arts Festival"],
+            images:["https://thearabweekly.com/sites/default/files/styles/article_image_800x450_/public/2022-09/1_55.jpg?itok=DWJeIWDW", "https://www.lesjardinsdelamedina.com/blog/wp-content/uploads/2019/06/festival-arts-populaires-678x381.jpg"],
+          }
+          ,
+          "local cuisine": 
+          {
+            names:["Tagine", "Couscous"],
+            images:["https://mylittlekech.com/wp-content/uploads/2018/08/tajine-agneau-de-marrakech-700x450.jpg", "https://media-cdn.tripadvisor.com/media/photo-s/06/8e/d3/5b/riad-dar-belarej.jpg"],
+          }
+          ,
+          "crafts": 
+          {
+            names:["Marrakech carpets", "Leather goods"],
+            images:["https://media.tacdn.com/media/attractions-splice-spp-720x480/0b/fc/b6/47.jpg", "https://cdn.shopify.com/s/files/1/0050/7478/0275/files/what_is_moroccan_leather.png?v=1649870608"],
+          },
+          
+          "traditional clothing": 
+          {
+            names:["Traditional Moroccan Jellaba"],
+            images:["https://www.maghrebmagazine.com/wp-content/uploads/2023/04/Morocco_djellaba_end_of_20th_century_-_Bunka_Gakuen_Costume_Museum_-_DSC05317-edited-1.jpg"],
+          }
+    
         },
         "culture": {
           "language": "Arabic",
           "music": "Berber music",
           "landmarks": ["Jemaa el-Fnaa", "Majorelle Garden"]
         },
-        "images": {
-          "festivals": ["marrakech_film_festival.jpg", "popular_arts_festival.jpg"],
-          "local_cuisine": ["tagine.jpg", "couscous.jpg"],
-          "crafts": ["marrakech_carpets.jpg", "leather_goods.jpg"],
-          "traditional_clothing": ["moroccan_jellaba.jpg"],
-          "historical_sites": ["jemaa_el_fnaa.jpg", "majorelle_garden.jpg"]
-        }
+
       },
       {
         id:5,
         "name": "Casablanca",
         "traditions": {
-          "festivals": ["Casablanca Festival", "Jidar - Toiles de Rue"],
-          "local_cuisine": ["Bisteeya", "Harira"],
-          "crafts": ["Casablanca ceramics", "Textiles"],
-          "traditional_clothing": ["Traditional Moroccan Takchita"],
-          "historical_sites": ["Hassan II Mosque", "Corniche"]
+          "festivals": 
+          {
+            names:["Casablanca Festival", "Jidar - Toiles de Rue"],
+            images:["https://fr.hespress.com/wp-content/uploads/2022/06/L-Boulevard-Festival.jpg", "https://www.leconomiste.com/sites/default/files/eco7/public/styles/juicebox_medium/public/jidar_1.jpg?itok=MhcJqZKP"],
+          }
+          ,
+          "local cuisine": 
+          {
+            names:["Bisteeya", "Harira"],
+            images:["https://spoonwithme.files.wordpress.com/2013/03/mg_9831.jpg", "https://tasteofmaroc.com/wp-content/uploads/2017/05/harira-2-moroccan-soup-picturepartners-bigstock.jpg"],
+          }
+          ,
+          "crafts": 
+          {
+            names:["Casablanca ceramics", "Textiles"],
+            images:["https://www.gpsmycity.com/img/art_item/1e53f743ecc-ceramic-articles.jpg", "https://kohantextilejournal.com/wp-content/uploads/2019/07/annie-spratt-5GsbwkrCfuM-unsplash.jpg"],
+          }
+          ,
+          "traditional clothing": 
+          {
+            names:["Traditional Moroccan Takchita"],
+            images:["https://classyandfabb.com/cdn/shop/files/Takchita-Joory-2_1200x.jpg?v=1685451262"],
+          }
+   
         },
         "culture": {
           "language": "Arabic",
           "music": "Chaabi music",
           "landmarks": ["Hassan II Mosque", "Corniche"]
         },
-        "images": {
-          "festivals": ["casablanca_festival.jpg", "jidar_toiles_de_rue.jpg"],
-          "local_cuisine": ["bisteeya.jpg", "harira.jpg"],
-          "crafts": ["casablanca_ceramics.jpg", "textiles.jpg"],
-          "traditional_clothing": ["moroccan_takchita.jpg"],
-          "historical_sites": ["hassan_ii_mosque.jpg", "corniche.jpg"]
-        }
+
       },
       {
         id:6,
         "name": "Fes",
         "traditions": {
-          "festivals": ["Fes Festival of World Sacred Music", "Fes Festival of Sufi Culture"],
-          "local_cuisine": ["Mechoui", "Fes Pastilla"],
-          "crafts": ["Fes ceramics", "Embroidery"],
-          "traditional_clothing": ["Traditional Moroccan Fouta"],
-          "historical_sites": ["Medina of Fes", "Bou Inania Madrasa"]
+          "festivals": 
+          {
+            names:["Fes Festival of World Sacred Music", "Fes Festival of Sufi Culture"],
+            images:["https://www.moroccoworldnews.com/wp-content/uploads/2023/08/fez-prepares-to-celebrate-art-culture-with-sacred-music-festival-in-september-800x507.jpeg", "https://www.morocco-fezfestival.com/assets/images/tours/12/gallery/fes%20festival%20of%20sufi%20culture.jpg"],
+          }
+          ,
+          "local cuisine": 
+          {
+            names:["Mechoui", "Fes Pastilla"],
+            images:["https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,fit=cover/iaghmzlq/a02aa53e-127a-4cf4-877f-55ecae431e11.jpg", "https://www.moroccoworldnews.com/wp-content/uploads/2019/09/How-to-Make-Moroccan-Chicken-Pastilla.jpg"],
+          }
+          ,
+          "crafts": 
+          {
+            names:["Fes ceramics", "Embroidery"],
+            images:["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/c7/29/fd/art-naji-ceramics-fes.jpg?w=300&h=300&s=1", "https://i0.wp.com/thecamelia-bijoux.com/wp-content/uploads/2019/04/Broderie-de-F%C3%A8s-The-Camelia-bijoux.jpg?fit=563%2C560&ssl=1"],
+          }
+          ,
+          "traditional clothing": 
+          {
+            names:["Traditional Moroccan Fouta"],
+            images:["https://www.laboiteamaillots.com/wp-content/uploads/2022/02/FOUTHA_CHEVRON.jpg.webp"],
+          }
+
         },
         "culture": {
           "language": "Arabic",
           "music": "Andalusian music",
           "landmarks": ["Medina of Fes", "Bou Inania Madrasa"]
         },
-        "images": {
-          "festivals": ["fes_sacred_music_festival.jpg", "fes_sufi_culture_festival.jpg"],
-          "local_cuisine": ["mechoui.jpg", "fes_pastilla.jpg"],
-          "crafts": ["fes_ceramics.jpg", "embroidery.jpg"],
-          "traditional_clothing": ["moroccan_fouta.jpg"],
-          "historical_sites": ["medina_of_fes.jpg", "bou_inania_madrasa.jpg"]
-        }
+
       }
     ]
   })
